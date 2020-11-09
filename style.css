@@ -4,23 +4,21 @@
   padding: 0;
 }
 
+.all-the-goods{
+  height: 100%;
+  width: auto;
+  display: flex;
+  justify-content: center;
+}
 .atg-inner {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
 }
 
-.chili {
-  width: 75%;
+.chili{
+  max-width: 90%;
   height: auto;
-  margin: auto;
-}
-
-.waitlist {
-  position: absolute;
-  margin: auto;
-  top: 75%;
-  left:
 }
 
 #email_form {
