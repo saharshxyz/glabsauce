@@ -4,9 +4,14 @@
   padding: 0;
 }
 
-.chili img {
-  display: block;
-  max-width: 75vh;
+.atg-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.chili {
+  width: 75%;
   height: auto;
   margin: auto;
 }
@@ -14,8 +19,8 @@
 .waitlist {
   position: absolute;
   margin: auto;
-  top: 75vh;
-  left: 35vw;
+  top: 75%;
+  left:
 }
 
 #email_form {
