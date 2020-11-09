@@ -1,0 +1,23 @@
+* {
+  background-color: #f3747f;
+  margin: 0;
+  padding: 0;
+}
+
+.chili img {
+  display: block;
+  max-width: 75vh;
+  height: auto;
+  margin: auto;
+}
+
+.waitlist {
+  position: absolute;
+  margin: auto;
+  top: 75vh;
+  left: 35vw;
+}
+
+#email_form {
+  background-color: white;
+}
