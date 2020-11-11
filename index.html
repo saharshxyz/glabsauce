@@ -1,31 +1,45 @@
 <!DOCTYPE html>
 
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
+	<head>
+		<meta charset="utf-8" />
 
-    <title>Saucy.</title>
+		<title>Saucy.</title>
 
-    <meta name="author" content="Zach Glabman" />
-    <!-- view window for phone vs laptop -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="author" content="Zach Glabman" />
+		<!-- view window for phone vs laptop -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <link rel="stylesheet" type="text/css" href="hover.css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css
-" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
-  </head>
-<body>
-  <div class = "all-the-goods">
-    <div class = "atg-inner">
-        <img class = "chili" src="pepper.jpg">
-    <div>
-      <form class = "waitlist">
-        <input id = "email_form" type = "email" placeholder = "type your email..." required> 
-        <input class = "btn btn-secondary" type="submit" value="Join the waitlist 🌶️">
-      </form>
-    </div>
-  </div>
-  </div>
-</body>
+		<link rel="stylesheet" type="text/css" href="styles.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"
+		/>
+	</head>
+	<body>
+		<div class="container">
+			<div class="chili">
+				<img src="pepper.png" />
+			</div>
+			<form action="" method="POST">
+				<div class="field">
+					<div class="control">
+						<input
+							class="input"
+							name="email"
+							type="email"
+							placeholder="Email"
+						/>
+					</div>
+				</div>
+				<div class="field">
+					<div class="control">
+						<button class="button is-link" type="submit">
+							Join the waitlist 🌶
+						</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</body>
 </html>
